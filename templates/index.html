@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Health Chatbot</title>
+    <style>
+        body { font-family: Arial; margin: 40px; background-color: #f0f8ff; }
+        h1 { color: #0077b6; }
+        textarea, input[type=text] { width: 100%; padding: 10px; margin: 10px 0; }
+        .btn { padding: 10px 20px; background-color: #0077b6; color: white; border: none; cursor: pointer; }
+        .response { background-color: #e0f7fa; padding: 10px; margin-top: 10px; border-radius: 5px; }
+    </style>
+</head>
+<body>
+    <h1>💬 Health Query Chatbot</h1>
+    <form method="POST">
+        <label>Ask your health question:</label><br>
+        <input type="text" name="query" required>
+        <button type="submit" class="btn">Ask</button>
+    </form>
+    {% if response %}
+    <div class="response">
+        <strong>Bot Response:</strong> {{ response }}
+    </div>
+    {% endif %}
+</body>
+</html>
