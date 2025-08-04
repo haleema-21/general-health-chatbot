@@ -1,4 +1,4 @@
-🩺 General Health Chatbot
+## 🩺 General Health Chatbot
 
 A simple web-based chatbot that answers general health-related queries using a pre-trained Hugging Face model. Built with Python, Flask, and Transformers, this chatbot helps users get safe and helpful responses to common medical questions.
 
@@ -29,31 +29,40 @@ A simple web-based chatbot that answers general health-related queries using a p
 ## 🗂️ Project Structure
 
 Health_chatbot/
-├── app.py                  # Flask web server
-├── model_setup.py          # Model loading and response generation
-├── requirements.txt        # Python dependencies
+├── app.py                                 # Flask web server
+├── model_setup.py                         # Model loading and response generation
+├── requirements.txt                       # Python dependencies
 ├── templates/
-│   └── index.html          # Frontend HTML
+│   └── index.html                         # Frontend HTML
 └── static/
-    └── style.css           # Styling
+    └── style.css                          # Styling
+
 
 
 
 ---
-📸 Screenshot
+## 📸 Screenshot
 <img width="1882" height="360" alt="image" src="https://github.com/user-attachments/assets/9ea9605f-0d0c-49f8-b333-4a1ae7f2a60e" />
 
 ---
 
 ## 💬 Example Questions to Try
 
-- What is a sore throat?
-- How to stay healthy during winter?
-- What does hyperventilating mean?
-- How to treat a mild headache?
+What is a balanced diet?
+How much water should I drink daily?
+What are some home remedies for cough?
+How often should I exercise to stay healthy?
+What are the benefits of eating fruits regularly?
+How do I treat a minor burn at home?
+What is the normal human body temperature?
+How to manage stress effectively?
+What are the early signs of diabetes?
+What is hyperventilation and how is it treated?
+What should I eat to improve my immunity?
+How can I sleep better at night?
 
 ---
-🌱 Future Improvements
+## 🌱 Future Improvements
 
 🔐 Add authentication for user sessions
 🌐 Deploy on platforms like Render or Vercel
@@ -62,33 +71,29 @@ Health_chatbot/
 
 ---
 
-⚙️ Installation & Running Locally
+## ⚙️ Installation & Running Locally
 
-Step 1: Clone the Repository
-bash
-Copy
-Edit
+## Step 1: Clone the Repository
+
 git clone https://github.com/haleema-21/general-health-chatbot.git
 cd general-health-chatbot
-Step 2: (Optional) Create Virtual Environment
-bash
-Copy
-Edit
+
+## Step 2: (Optional) Create Virtual Environment
+
 python -m venv venv
 venv\Scripts\activate
-Step 3: Install Required Packages
-bash
-Copy
-Edit
+
+## Step 3: Install Required Packages
+
 pip install -r requirements.txt
-Step 4: Run the Application
-bash
-Copy
-Edit
+
+## Step 4: Run the Application
+
 python app.py
 Go to your browser and open:
 http://127.0.0.1:5000
 
 ---
-🔐 Disclaimer
+## 🔐 Disclaimer
+
 ⚠️ This chatbot is not a replacement for professional medical advice. It is intended for educational purposes only.
