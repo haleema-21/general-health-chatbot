@@ -53,13 +53,11 @@ Health_chatbot/
 - How to treat a mild headache?
 
 ---
- Future Improvements
+🌱 Future Improvements
+
 🔐 Add authentication for user sessions
-
 🌐 Deploy on platforms like Render or Vercel
-
 🗣️ Add speech-to-text feature
-
 📊 Add analytics to track question trends
 
 ---
