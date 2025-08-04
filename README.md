@@ -43,6 +43,7 @@ Health_chatbot/
 📸 Screenshot
 <img width="1882" height="360" alt="image" src="https://github.com/user-attachments/assets/9ea9605f-0d0c-49f8-b333-4a1ae7f2a60e" />
 
+---
 
 ## 💬 Example Questions to Try
 
@@ -61,7 +62,10 @@ Health_chatbot/
 
 📊 Add analytics to track question trends
 
+---
+
 ⚙️ Installation & Running Locally
+
 Step 1: Clone the Repository
 bash
 Copy
@@ -87,6 +91,6 @@ python app.py
 Go to your browser and open:
 http://127.0.0.1:5000
 
-
+---
 🔐 Disclaimer
 ⚠️ This chatbot is not a replacement for professional medical advice. It is intended for educational purposes only.
